@@ -34,4 +34,4 @@ unsigned char tmpC = 0x00;
     }
     return 0;
 }
-~
+
