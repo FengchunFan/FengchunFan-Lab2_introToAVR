@@ -35,7 +35,7 @@ tWeight = tmpA + tmpB + tmpC;
   if(tWeight > 0x8C){
   tmpD = 0x01;  //PD0 = 1;
 }
-  if(((tmpA - tmpC) > 80) || ((tmpC - tmpA) > 80)){
+  if(((tmpA - tmpC) > 0x50) || ((tmpC - tmpA) > 0x50)){
   tmpE = 0x02;  //PD1 = 1;
 }
 
