@@ -39,7 +39,7 @@ tWeight = tmpA + tmpB + tmpC;
   tmpE = 0x02;  //PD1 = 1;
 }
 
-tmpF = (tWeight  >> 2) & 0xFC ; //to keep the last two digit 0 for total weight, understood question wrong oops
+tmpF = (tWeight  >> 2) & 0x3C ; //to keep the last two digit 0 for total weight, understood question wrong oops
 PORTD = (tmpD | tmpE | tmpF);
 }
 return 0;
